@@ -108,6 +108,9 @@ ul{
     color: #34ad43;
 }
 
+.navbar-expand-md .navbar-nav li {
+
+}
 /*========================================*/
 .navbar,#MyHeader {
     padding: 0 0 5px 0;
@@ -117,6 +120,7 @@ ul{
     position: relative;
     height: 100%;
     z-index: 19999;
+    background-color: #000000d9;
 }
 .bg-light {
     background: #ddd;
@@ -159,9 +163,12 @@ ul{
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover ,.navbar-light .navbar-nav .active
 {
-    background-color: #34ad43;
-     color: #fff !important;
+    background-color: #f8faf821;
+    color: #fff !important;
+    font-size: 30px;
+
 }
+
 
 .navbar-brand img{
     height: 60px;
@@ -170,7 +177,7 @@ ul{
 /*===========================================*/
 #intro {
     width: 100%;
-    height: 104vh;
+    height: 118vh;
     background: url("../img/head.png") center top no-repeat;
     /*background-size: cover;*/
     position: relative;
@@ -277,35 +284,21 @@ ul{
     margin-left: 40px;
 }
 #intro .btn-outline-light {
-    /* color: #f8f9fa !important;
-    font-size: 17px;
-    border-radius: 20px 20px;
-    padding: 6px 15px;
-    min-width: 142px;
-    background-color: #34ad43;
-    border: none;
-    min-height: 66px;
-    white-space: pre-line;
-    width: 180px;
-    margin: 10px 5px;
-     */
-
     color: #f8f9fa !important;
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 25px 1px;
     padding: 4px 15px;
-    /* min-width: 78px; */
+    min-width: 98px;
     background-color: #34ad43;
     border: none;
     /* min-height: 50px; */
     white-space: pre-line;
-    width: 103px;
+    width: 116px;
     margin: 25px 42px;
     position: relative;
     position: relative;
     right: -115px;
-}
-#intro .btn-outline-light:hover {
+}#intro .btn-outline-light:hover {
 
     background-color: #2fd844;
     border-color: none;
@@ -366,7 +359,7 @@ section{
 
 }
 .section-bg {
-    background: #fff;
+    background: #00000030;
 }
 .section-title{
     text-align: center;
@@ -1054,9 +1047,9 @@ border: 1px solid black;
     }
     #intro {
         width: 100%;
-        height: 50vh;
+        height: 30vh;
         background: url("../img/head.png") center top no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
         padding-top:  50px;
         /*overflow: hidden !important;*/
@@ -1216,7 +1209,6 @@ border: 1px solid black;
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
-        padding-top: 23px;
     }
 
 
