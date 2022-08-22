@@ -26,7 +26,7 @@ SECRET_KEY = os.environ["SECRET_KEY"]
 # SECURITY WARNING: don't run with debug turned on in production!
 
 if IS_HEROKU:
-    ALLOWED_HOSTS = ["https://thawing-wildwood-02706.herokuapp.com/"]
+    ALLOWED_HOSTS = ["thawing-wildwood-02706.herokuapp.com"]
 else:
     ALLOWED_HOSTS = []
 # Application definition
