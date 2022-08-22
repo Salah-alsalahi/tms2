@@ -40,7 +40,7 @@ else:
 
     ALLOWED_HOSTS = []
 # Application definition
-
+DEBUG = True
 if not IS_HEROKU:
     DEBUG = True
 
