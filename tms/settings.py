@@ -31,8 +31,8 @@ else:
     ALLOWED_HOSTS = []
 # Application definition
 
-if not IS_HEROKU:
-    DEBUG = True
+# if not IS_HEROKU:
+DEBUG = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
