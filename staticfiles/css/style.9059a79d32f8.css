@@ -24,8 +24,8 @@ img.watsapp {
 }
 /* @font-face {
     font-family: 'DinNextLight';
-    /* src: url('fonts/din-next/light/DinNextLight.eot'); */
-    /* src: url('fonts/din-next/light/DinNextLight.eot') format('embedded-opentype'), url('fonts/din-next/light/DinNextLight.woff2') format('woff2'), url('fonts/din-next/light/DinNextLight.woff') format('woff'), url('fonts/din-next/light/DinNextLight.ttf') format('truetype'), url('fonts/din-next/light/DinNextLight.svg#DinNextLight') format('svg'); */
+    /* src: url("fonts/din-next/light/DinNextLight.77ab3f861169.eot"); */
+    /* src: url("fonts/din-next/light/DinNextLight.77ab3f861169.eot") format('embedded-opentype'), url("fonts/din-next/light/DinNextLight.4ffa9b80acc4.woff2") format('woff2'), url("fonts/din-next/light/DinNextLight.24a4fc5964d4.woff") format('woff'), url("fonts/din-next/light/DinNextLight.71a8ddd2e22e.ttf") format('truetype'), url("fonts/din-next/light/DinNextLight.e502694d9f51.svg#DinNextLight") format('svg'); */
 
 *{
     font-family: 'DinNextRegular';
@@ -178,7 +178,7 @@ ul{
 #intro {
     width: 100%;
     height: 118vh;
-    background: url("../img/head.png") center top no-repeat;
+    background: url("../img/head.d1cb75246048.png") center top no-repeat;
     /*background-size: cover;*/
     position: relative;
     background-size: contain;
@@ -527,7 +527,7 @@ section{
 
 .Parlex {
   height: 100%;
-    background: url(../img/head.png) center top no-repeat;
+    background: url("../img/head.d1cb75246048.png") center top no-repeat;
     background-size: contain;
     position: relative;
     /* padding: 89px 0; */
@@ -578,7 +578,7 @@ border-left: 1px solid #ddd;
 .bradcramp {
 
     background: linear-gradient(45deg, rgba(6, 6, 6, 0.19), rgba(255, 255, 255, 0.1)),
-        url(../img/h1.png) no-repeat;
+        url("../img/h1.0ced7457ba42.png") no-repeat;
     background-size: 100% 100%;
     position: relative;
 }
@@ -1048,7 +1048,7 @@ border: 1px solid black;
     #intro {
         width: 100%;
         height: 30vh;
-        background: url("../img/head.png") center top no-repeat;
+        background: url("../img/head.d1cb75246048.png") center top no-repeat;
         background-size: cover;
         position: relative;
         padding-top:  50px;
@@ -1193,7 +1193,7 @@ border: 1px solid black;
     } */
     .Parlex {
         height: 100%;
-          background: url(../img/head.png) center top no-repeat;
+          background: url("../img/head.d1cb75246048.png") center top no-repeat;
           background-size: cover;
           position: relative;
           /* padding: 89px 0; */
