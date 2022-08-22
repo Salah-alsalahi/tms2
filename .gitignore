@@ -3,4 +3,8 @@ env
 venv
 db.sqlite3
 .vscode/settings.json
+.vscode
+.vscode/
+.vscode/*
+
 
