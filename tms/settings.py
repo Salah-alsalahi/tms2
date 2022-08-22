@@ -22,12 +22,22 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ["SECRET_KEY"]
+# SECRET_KEY = os.environ.get('my_django_sec')
+# print(SECRET_KEY,"55555")
+
 # SECURITY WARNING: don't run with debug turned on in production!
 
 if IS_HEROKU:
     ALLOWED_HOSTS = ["thawing-wildwood-02706.herokuapp.com"]
+    SECRET_KEY = os.environ["SECRET_KEY"]
+
 else:
+
+    from dotenv import load_dotenv, find_dotenv
+    load_dotenv(find_dotenv())
+    SECRET_KEY = os.environ['SECRET_KEY']
+
+
     ALLOWED_HOSTS = []
 # Application definition
 
